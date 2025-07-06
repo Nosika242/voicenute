@@ -1,0 +1,107 @@
+
+ 
+    body {
+      background: #121212 !important;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .hero {
+      /* padding: 80px 20px; */
+      text-align: center;
+      background: linear-gradient(to right, #1e1e1e, #292929);
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1.25rem;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      margin-bottom: 1.875rem;
+    }
+    .btn-primary {
+      background-color: darkgreen;
+      border: none;
+      font-size: 1.25rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .features {
+      background: #181818;
+      /* padding: 60px 20px; */
+    }
+    .features .icon {
+      font-size: 3rem;
+      margin-bottom: .9375rem;
+    }
+   
+.facebook:hover{
+      color: #3b5998 !important;
+    }
+    .instagram:hover{
+      color: #c13584 !important;
+    }
+    .twitter:hover{
+      color: #1da1f2 !important;
+    }
+    .tiktok:hover{
+      color: #69c9d0 !important;
+    }
+
+    /* #intro-space {
+   width: 100%;
+   max-width: 68.75rem;
+   margin: 0 auto;
+   padding: 0 1.125rem;
+} */
+   
+  .img-fluid {
+  max-width: 100%;
+  height: auto;
+  width: 40px;
+  }
+    .navbar {
+      padding: 1rem 2rem;
+    }
+  
+    .navbar-nav .nav-link:hover {
+      color: #ddd !important;
+    }
+
+       @media screen and (min-width: 320px) and (max-width: 575px) {
+     
+      .hero  {
+        padding: 1.875rem .625rem;
+      }
+      .hero h1 {
+        font-size: 2rem;
+        color:#3b5998;
+      }
+      .hero p {
+        font-size: 1rem;
+      }
+      .features  {
+        padding: 1.25rem .625rem;
+      }
+    } 
+     @media screen and (min-width: 576px) {
+     
+      .hero  {
+        padding: 3.125rem 1.25rem;
+      }
+      .features  {
+        padding: 2.5rem 1.25rem;
+      }
+    } 
+
+      
+     @media screen and (min-width: 768px) {
+      .hero {
+         padding: 5rem 1.25rem; 
+       }
+     
+      .features {
+         padding: 3.75rem 1.25rem; 
+      }
+    }  
+    
