@@ -10,7 +10,7 @@ body {
   z-index: 1;
   overflow: hidden; 
 }
-.hero::before {
+/* .hero::before {
   content: "";
   position: absolute;
   top: 0;
@@ -22,7 +22,7 @@ body {
   background-position: center;
   opacity: 0.3;
   z-index: -1;
-}
+} */
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 1.25rem;
@@ -30,6 +30,7 @@ body {
 .hero p {
   font-size: 1.25rem;
   margin-bottom: 1.875rem;
+  text-transform: italic;
 }
 .btn-primary {
   background-color: darkgreen;
@@ -55,7 +56,7 @@ body {
   background-image: url("./images/A\ guy\ listening\ to\ song.jpg");
   background-size: cover;
   background-position: center;
-  opacity: 0.1; /* Adjust opacity here */
+  opacity: 0.1; 
   z-index: -1;
 }
 .features .icon {
@@ -108,7 +109,7 @@ body {
 }
 
 .navbar-nav .nav-link:hover {
-  color: #ddd !important;
+  color: rgb(164, 245, 84) !important;
 }
 
 @media screen and (min-width: 320px) and (max-width: 575px) {
@@ -121,6 +122,7 @@ body {
   }
   .hero p {
     font-size: 1rem;
+    font-style: oblique;
   }
   .features {
     padding: 1.25rem 0.625rem;
@@ -132,7 +134,21 @@ body {
   h4 {
     color: chartreuse;
   }
+
+  .features .icon {
+  /* font-size: 5rem; */
+  margin-bottom: .5rem;
 }
+ .features p {
+    /* font-size: 0.875rem; */
+    font-style: oblique;
+    padding: 0 4.6875rem;
+  }
+  .fanbase{
+    font-style: italic;
+  }
+}
+
 
 @media screen and (min-width: 576px) {
   .hero {
